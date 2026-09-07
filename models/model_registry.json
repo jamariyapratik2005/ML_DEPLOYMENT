@@ -1,0 +1,19 @@
+{
+  "current_version": "v2",
+  "versions": {
+    "v1": {
+      "path": "models/v1/zomato_rating_model.pkl",
+      "trained_on": "2026-09-07",
+      "r2_score": 0.963,
+      "description": "Baseline model with max_depth=2",
+      "status": "archived"
+    },
+    "v2": {
+      "path": "models/v2/zomato_rating_model.pkl",
+      "trained_on": "2026-09-07",
+      "r2_score": 1.0,
+      "description": "Improved model with max_depth=4",
+      "status": "deployed"
+    }
+  }
+}
